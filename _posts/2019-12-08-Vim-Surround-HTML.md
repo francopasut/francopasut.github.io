@@ -1,6 +1,7 @@
 ---
 title: "Vim: surround a list of sentences with HTML tags"
 last_modified_at: 2019-08-08T17:20:02-05:00
+canonical_url: 'https://francopasut.tumblr.com/post/175782292130/vim-surround-a-list-of-sentences-with-html-tags/'>
 categories:
   - Blog
 tags:
