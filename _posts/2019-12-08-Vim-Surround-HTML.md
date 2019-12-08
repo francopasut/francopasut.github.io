@@ -59,4 +59,4 @@ That's the desired result.
 
 Thank you for your attention.
 
-Originally published at </em><a href="https://francopasut-en.blogspot.com/2019/08/gnulinux-multi-boot-from-grub-to-burg.html">
+Originally published at [My Tumblr Account](https://francopasut-en.blogspot.com/2019/08/gnulinux-multi-boot-from-grub-to-burg.html)
