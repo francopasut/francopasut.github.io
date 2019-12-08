@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "First Lastname"
   avatar : "/assets/images/pasut.jpeg"
-  bio    : "Who an I? I don't know yet."
+  bio    : "Who am I? I don't know yet."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
