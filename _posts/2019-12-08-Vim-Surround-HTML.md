@@ -9,10 +9,6 @@ tags:
   - HTML
 ---
 
-<head>
-rel="canonical" href="https://francopasut.tumblr.com/post/175782292130/vim-surround-a-list-of-sentences-with-html-tags"/>
-</head>
-<body>
 
 
 If you have a **list of words or sentences in Vim** and you need to add a couple of tags around each of them you cannot simply use the `V` (upper v) command to select all of them before using _vim.surround_ because in this case you get only one couple of tags
@@ -64,4 +60,3 @@ That's the desired result.
 Thank you for your attention.
 
 Originally published at </em><a href="https://francopasut-en.blogspot.com/2019/08/gnulinux-multi-boot-from-grub-to-burg.html">
-</body>
