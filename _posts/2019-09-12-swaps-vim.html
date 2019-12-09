@@ -1,0 +1,66 @@
+---
+title: "Vim, swapping words via text objects"
+last_modified_at: 2019-12-09T16:20:02-05:00
+categories:
+  - Blog
+tags:
+  - Vim
+  - Text Objects
+---
+
+<head><link rel="canonical" href="https://francopasut.tumblr.com/post/174765290600/swap-two-words-in-vim-using-text-objects"/></head>
+
+<body>
+<p>Swapping two words is a good exercise in Vim and its commands, including the <em>text objects</em>.</p>
+<p>In this article I will try to solve two possible scenarios for the exchange of position of two words <strong>without using any changes to the basic Vim settings</strong>.</p>
+<h2 id="first-scenario">First scenario</h2>
+<h3 id="two-words-followed-by-other-words-or-almost-a-space.">Two words followed by other words or almost a space.</h3>
+<p><strong>The example:</strong></p>
+<pre><code>  TWO ONE THREE</code></pre>
+<p>In this scenario you can use the same <em>text object</em> solution from both the first and second word but followed by different commands.</p>
+<ol class="incremental" type="1">
+<li>With the cursor on the <strong>first word</strong> you can use the following text sequence: <code>dawwP</code></li>
+<li>With the cursor on the <strong>second word</strong> you use the other text sequence: <code>dawbP</code></li>
+</ol>
+<p>Let’s analize the two different text sequences.</p>
+<p>The string <code>daw</code> is the <em>text object</em> command and it’s <strong>common to the two solutions</strong>.</p>
+<p>More specifically:</p>
+<ul class="incremental">
+<li><code>d</code> is the command for <em>delete</em></li>
+<li><code>a</code> is the command for <em>all</em> (spaces included)</li>
+<li><code>w</code> is the object of the command: the <em>word</em></li>
+</ul>
+<p>Then the command <em>deletes the word and all the spaces that follow it</em>.</p>
+<ul class="incremental">
+<li><p>the <strong>first solution</strong> continues whit the letter <code>w</code> that moves the cursor to the beginning of the following word.</p></li>
+<li><p>the <strong>second solution</strong> continues with the letter <code>b</code> that moves the cursor to the beginning of the previous word</p></li>
+<li><p>both the solutions end with a <code>P</code> (uppercase) that’s for <em>put the last deleted text object <strong>before</strong> the cursor</em>.<br />
+Remember that in the <em>text object</em> are contained also the spaces.</p></li>
+</ul>
+<p>After both solutions you get the inversion of the first two words including the spaces:</p>
+<pre><code>    ONE TWO THREE</code></pre>
+<h2 id="second-scenario">Second scenario</h2>
+<h3 id="two-words-not-followed-by-other-words-or-spaces.">Two words NOT followed by other words or spaces.</h3>
+<p>This is a more challenging scenario because the words end immediately after the second one.</p>
+<p>If we use the previous solutions we would have two words attached to each other.</p>
+<p>So we have to use an expedient to add a space after the exchange of words.</p>
+<p>We can, for this, take advantage of the properties of the <code>J</code> command and a different version of <em>text object</em>.</p>
+<p><strong>The example:</strong></p>
+<pre><code>TWO ONE</code></pre>
+<ul class="incremental">
+<li><p>With the cursor on the <strong>second word</strong> you can use the following sequence: <code>diwOpJ</code> in which</p></li>
+<li><p><code>diw</code> is the <em>text object</em> to delete che word without following spaces</p></li>
+<li><p><code>O</code> (letter <em>o</em> uppercase) adds a line above</p></li>
+<li><p>`` enters the <em>normal mode</em></p></li>
+<li><p><code>p</code> puts the <em>text object</em> in the upper (current) line</p></li>
+<li><p><code>J</code> joins the upper line to the lower one adding a space</p></li>
+</ul>
+<p>The command <code>diw</code> <em>deletes the word but not the spaces that follow it</em>.</p>
+<p>After this solution you get the inversion of the two words with a space added:</p>
+<pre><code>ONE TWO</code></pre>
+<p>If you need to delete che remaining space after the secondo word you can use <code>$x</code>.</p>
+<p>That’s all.</p>
+<p>Thank You.</p>
+<p>Originally published at <a href="https://francopasut.tumblr.com/post/174765290600/swap-two-words-in-vim-using-text-object"></p>
+</body>
+
