@@ -11,6 +11,12 @@ Here's the list of sites:
 - [My Tumblr Blog](https://francopasut.tumblr.com/)
 - [My Medium Profile](https://medium.com/@FrancoPasut)
 
+This is a static website: no PHP, no Javascript, no databases, no banners, no tricks. 
 
+All is written in static HTML language.
+
+Therefore, no personal data, no cookies are collected in any way.
+
+If you need to contact me you can write to my Gmail account with _franco dot pasut_
 
 Thank you for visiting my online notebook. 
