@@ -29,11 +29,21 @@ In fact you can create, in Emacs, a _new buffer_ without creating a new file.
 
 In this way you can start writing right away without worrying about where to save the file.
 
-How can you get this result: `C-x b` and write a random name.
+How can you get this result: 
+
+```
+C-x b
+```
+
+and write a random name.
 
 This way you will have created a buffer with an effortless name that will be deleted when you exit the program.
 
-No residual will remain in the disc. Unless you decide to give a file name by pressing `C-x C-s`.
+No residual will remain in the disc. Unless you decide to give a file name by pressing 
+
+```
+C-x C-s
+```
 
 ## The same result using Evil Mode ##
 
