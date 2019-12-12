@@ -49,7 +49,7 @@ Then you must use another strategy as like the following one:
 At the end you'll get:
 
 ```
-</p><p>This is a sentence.</p>
+<p>This is a sentence.</p>
 <p>This is another sentence.</p>
 <p>And this is a third sentence.</p>
 
