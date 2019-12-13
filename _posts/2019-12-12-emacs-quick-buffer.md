@@ -10,7 +10,7 @@ tags:
 
 
 ## The standard way to create new files in Emacs
-When you need to create a new file in Emacs you, normally, must press a key combination like the following one: 
+When you need to create a new file in the Emacs environment you, normally, must press a key combination like the following one: 
 
 ```
 C-x C-f
