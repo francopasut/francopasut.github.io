@@ -10,9 +10,14 @@ tags:
 
 
 ## The standard way to create new files in Emacs
-When you need to create a new file in Emacs you, normally, must press a key combination like the following one: `C-x C-f` and give a path and a name to the file itself.
+When you need to create a new file in Emacs you, normally, must press a key combination like the following one: 
 
-In _the world of Vim_ there's no need to open a new file everytime you have only to take  some quick notepad ideas: you can simply  press the _Insert Mode_ and begin to write inside the editor. 
+```
+C-x C-f
+```
+and give a path and a name to the file itself.
+
+In _the world of Vim_, instead, there's no need to open a new file everytime you have only to take  some quick notepad ideas: you can simply  press the _Insert Mode_ and begin to write inside the editor. 
 
 In this case Vim automatically creates a new _buffer_ and you can write wihout naming a new file.
 
