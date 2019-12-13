@@ -17,12 +17,12 @@ C-x C-f
 ```
 and give a path and a name to the file itself.
 
-In _the world of Vim_, instead, there's no need to open a new file everytime you have only to take  some quick notepad ideas: you can simply  press the _Insert Mode_ and begin to write inside the editor. 
+In _the world of Vim_, instead, there's no need to open a new file every time you have only to take  some quick notepad ideas: you can simply  press the _Insert Mode_ and begin to write inside the editor. 
 
-In this case Vim automatically creates a new _buffer_ and you can write wihout naming a new file.
+In this case, Vim automatically creates a new _buffer_ and you can write without naming a new file.
 
 
-Is there a corresponding chance in _vanilla Emacs_?
+Is there a corresponding function in _vanilla Emacs_?
 
 Apparently there isn't: you cannot simply begin to write inside it.
 
@@ -30,7 +30,7 @@ But it's  possible to achieve a very similar result by taking advantage of the E
 
 ## Vanilla Emacs: a buffer but not a file ##
 
-In fact you can create, in Emacs, a _new buffer_ without creating a new file.
+In fact, you can create, in Emacs, a _new buffer_ without creating a new file.
 
 In this way you can start writing right away without worrying about where to save the file.
 
@@ -42,7 +42,7 @@ C-x b
 
 and write a random name.
 
-This way you will have created a buffer with an effortless name that will be deleted when you exit the program.
+This way, you will have created a buffer with an effortless name that will be deleted when you exit the program.
 
 No residual will remain in the disc. Unless you decide to give a file name by pressing 
 
