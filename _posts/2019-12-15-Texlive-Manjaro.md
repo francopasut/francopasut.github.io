@@ -1,7 +1,7 @@
 ---
 title: "TeXLive full installation in Linux Manjaro via pamac-manager"
 categories:
-  - Writing
+  - Operating Systems
 tags:
   - LaTeX
   - TeXLive
