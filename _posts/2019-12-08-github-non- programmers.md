@@ -1,7 +1,4 @@
 ---
-toc: true
-toc_label: "My GitHub Adventure"
-toc_icon: "cog"
 excerpt: "A GitHub adventure for a not developer"
 title: "GitHub built also for not developers, like me!"
 last_modified_at: 2019-12-08T16:20:02-05:00
