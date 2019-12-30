@@ -1,6 +1,6 @@
 ---
 toc: true
-toc_label: "Table of Contents"
+toc_label: "My GitHub Adventure"
 toc_icon: "cog"
 excerpt: "A GitHub adventure for a not developer"
 title: "GitHub built also for not developers, like me!"
