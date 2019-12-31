@@ -1,6 +1,11 @@
 ---
+toc: true
+toc_sticky: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
+excerpt: "How to use Emacs to take fast notes without creating new files"
 title: "Emacs: taking quick notes without creating new files"
-last_modified_at: 2019-08-08T17:20:02-05:00
+last_modified_at: 2019-12-31
 categories:
   - Editors
 tags:
@@ -28,13 +33,14 @@ Apparently there isn't: you cannot simply begin to write inside it.
 
 But it's  possible to achieve a very similar result by taking advantage of the Emacs buffers properties.
 
-## Vanilla Emacs: a buffer but not a file ##
+## Emacs environment: files as buffers ##
 
-In fact, you can create, in Emacs, a _new buffer_ without creating a new file.
+In the Emacs environment, you create _new buffers_ everytime you create  new files.
 
-In this way you can start writing right away without worrying about where to save the file.
+You  can also create _new buffers_ **without creating new files**.
 
-How can you get this result: 
+
+Simply type on the keyboard: 
 
 ```
 C-x b
@@ -50,8 +56,20 @@ No residual will remain in the disc. Unless you decide to give a file name by pr
 C-x C-s
 ```
 
-## The same result using Evil Mode ##
+## Why not use the _scratch_ buffer?
+
+Among the buffers already available by default every time you run Emacs you will find one called _scratch_.
+
+As it is specified inside this buffer:
+
+>This buffer is for text that is not saved, and for Lisp evaluation.
+
+So you can use this buffer either to take notes without saving them in a file, or to test something in _Elisp_ (but that's another story).
+
+## Another way: Evil Mode ##
 
 If you activate the Evil Normal Mode in Emacs you can use the `:enew` text command as if you were in _vanilla Vim_.
 
 But you cannot simply begin to press `i` and start writing: you aren't really in Vim but in a _Vim environment_ very similar to the original but not equal.
+
+Thank you for your attention.
