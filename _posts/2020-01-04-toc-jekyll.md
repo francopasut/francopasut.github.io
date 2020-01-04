@@ -67,4 +67,4 @@ Scrolling the page causes the current zone to be highlighted in the TOC.
 
 ![_config.yml]({{ site.baseurl }}/assets/images/toc-02.png)
 
-Thank you for you attention.
+Thank you for your attention.
