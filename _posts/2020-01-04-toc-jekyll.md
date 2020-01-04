@@ -49,7 +49,8 @@ For automatic TOC use the following configuration in the Front Matter (the _icon
 	toc: true
     toc_label: "My Table of Contents"
     toc_icon: "cog"
-	---
+    ---
+
 You can also use the /sticky/ version by adding `toc_sticky: true` in the Front Matter:
 
     ---
