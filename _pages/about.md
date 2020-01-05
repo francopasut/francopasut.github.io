@@ -17,6 +17,8 @@ All is written in static HTML language.
 
 Therefore, no personal data, no cookies are collected in any way.
 
+I don't know if notes written in this online notebook can be useful to anyone. They are primarily written for me, with the purpose to organize my ideas and to keep my mind in training, now that I'm getting old.
+
 If you need to contact me you can write to my Gmail account with _franco dot pasut_
 
 Thank you for visiting my online notebook. 
