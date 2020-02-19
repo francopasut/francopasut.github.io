@@ -32,7 +32,7 @@ You only have to install the [EasyMotion](https://github.com/easymotion/vim-easy
 
 
 
-# Installazione e configurazione di *EasyMotion*
+# Installation and configuration of *EasyMotion*
 
 The *EasyMotion* plugin installation is really a kid's joke. 
 
@@ -92,7 +92,7 @@ It's not a problem if you don't know the specific meaning of the code: you can s
 
 
 
-# Utilizzo di *EasyMotion* in Vim
+# Use of *EasyMotion* in Vim
 
 It is also very easy to use the plugin. 
 
@@ -113,7 +113,7 @@ You only have to press the letter pointed where you need to go. That's all!
 
 
 
-# Esempi con immagini
+# Examples with images
 
 Some images could be very useful.
 
