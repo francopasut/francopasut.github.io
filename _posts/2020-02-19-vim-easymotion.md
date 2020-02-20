@@ -100,9 +100,9 @@ To aim at the point where you want to jump, you must look at the text and identi
 
 Then you must press, in Normal Mode, one of the following commands: 
 
-1.  `.\f` to jump to a single character
+1.  `\f` to jump to a single character
 2.  `\s` to jump to a double character
-3.  ~/ ~ + to jump to a whole text string
+3.  `/  + string search` to jump to a complete text string
 
 Following the instructions you will have a series of letters on top of the tex: those are the *target points* that you can reach by pressing the corresponding letter. 
 
@@ -118,7 +118,7 @@ You only have to press the letter pointed where you need to go. That's all!
 Some images could be very useful.
 
 In the first image you can see the result ot a single character search with
-the following command: `\f + carattere` ("\\" is the default <Leader>).
+the following command: `\f + carattere` ("\\" is the default _\<Leader\>_).
 
 In this example I used ad "o" search.
 
