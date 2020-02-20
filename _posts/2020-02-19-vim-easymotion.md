@@ -118,7 +118,7 @@ You only have to press the letter pointed where you need to go. That's all!
 Some images could be very useful.
 
 In the first image you can see the result ot a single character search with
-the following command: `\f + carattere` ("\\" is the default _\<Leader\>_).
+the following command: `\f + <one letter>` ("\\" is the default _\<Leader\>_).
 
 In this example I used ad "o" search.
 
