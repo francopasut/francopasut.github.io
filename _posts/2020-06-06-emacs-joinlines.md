@@ -33,9 +33,6 @@ What follows is my solution but, of course, everyone can find another one.
 
 ## Caret or Circumflex  ##
 
-<!---
-Vedi questa pagina https://www.gabrielemerli.com/?p=3428
---->
 
 First of all we need to  take a look at the _US International Dead Keys_ keyboard layout for the  key corresponding to the _number 6_ and,  in specific to the two similar characters indicated on the top of the key.
 
