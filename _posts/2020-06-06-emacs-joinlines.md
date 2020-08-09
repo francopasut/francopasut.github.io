@@ -21,7 +21,7 @@ tags:
 
 ## Join-lines: Vim vs Emacs ##
 
-_Vim_ has a very simple system to join two lines. all you have to do is press the `J` (uppercase) key inside the line above.
+_Vim_ has a very simple system to join two lines: all you have to do is press the `J` (uppercase) key inside the line above.
 
 In _Emacs_, instead, you must use the `C-^` binding in the lower line.
 
