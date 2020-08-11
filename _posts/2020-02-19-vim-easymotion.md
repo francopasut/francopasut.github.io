@@ -117,7 +117,7 @@ You only have to press the letter pointed where you need to go. That's all!
 
 Some images could be very useful.
 
-In the first image you can see the result ot a single character search with
+In the first image you can see the result or a single character search with
 the following command: `\f + <one letter>` ("\\" is the default _\<Leader\>_).
 
 In this example I used ad "o" search.
@@ -130,7 +130,7 @@ In the second example I used a double character search with the command `\s + <t
 
 
 
-You can also use the ordinary Vim search, ot the combination of `/ + <word>`.
+You can also use the ordinary Vim search, or the combination of `/ + <word>`.
 
 In the following image you can see the result of the following
 search `/ + "justo"`. Now I use the letter *d* as a target and I will get
