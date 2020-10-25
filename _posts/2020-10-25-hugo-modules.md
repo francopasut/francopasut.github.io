@@ -44,9 +44,9 @@ Now it's necessary.
 
 Then the prerequisite is to install a Go version: go to [Golang.org](https://golang.org/doc/install) and follow the instructions (dowload the newest release, extract it and adjust the PATH).
 
-## The translation outline: from Academic to Wowchemy ##
+## The outline: from Academic to Wowchemy ##
 
-Now you can translate your previuos Academic site to a Wowchemy site, following these steps:
+Now you can convert your previuos Academic site to a Wowchemy site, following these steps:
 
 - Place the cursor in the local folder where you store the site (i.e. `cd yoursitelocalfolder`)
 - Remove or de-init the _Academic_ submodules: the fastest solution is the second one:
