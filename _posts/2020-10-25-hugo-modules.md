@@ -4,7 +4,7 @@ toc_sticky: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 header:
-  overlay_image: /assets/images/gohugo-logo.jpeg
+  overlay_image: /assets/images/hugo_black_logo.png
 image:
   feature: /assets/images/gohugo-logo.jpeg
   thumb: /assets/images/gohugo-small.png
