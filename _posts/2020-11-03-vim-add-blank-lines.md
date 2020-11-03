@@ -17,7 +17,7 @@ tags:
   - RegEx
 ---
 
-## What we are talking about?
+## What are we talking about?
 
 One of the most fascinating aspects of Vim is that you never end up learning new solutions and tricks
 
